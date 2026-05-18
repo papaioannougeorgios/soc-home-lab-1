@@ -1,7 +1,7 @@
 A brute force login attempt was initiated on the Windows VM using repeated authentication failures against multiple usernames. The activity was detected through the ingested Windows Security Logs into Splunk SIEM.
 
 Attack Details
-	Attack Type: Attempt to brute force login credentials.
+    Attack Type: Attempt to brute force login credentials.
 	Attack Result: Unsuccessful
 	Source: Localhost (127.0.0.1) - attack from the same endpoint.
 	Event Code: 4625
