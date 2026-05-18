@@ -14,7 +14,7 @@
 	
 2. Unauthorized new user creation.
 	PowerShell command used:
-		net user soc_test_user [yourpassword] /add
+		net user soc_test_user ********* /add
 
 3. User privilege escalation.
 	PowerShell command used:
