@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets
+*.env
+
+# Virtual environments
+venv/
+__pycache__/
