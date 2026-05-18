@@ -16,8 +16,7 @@ Setting up the Windows 11 + Splunk Forwarder VM.
 		[WinEventLog://Application]
 		disabled = 0
 
-		
-	F) Then, open outputs.conf with notepad and make sure that the following are in it: 
+F) Then, open outputs.conf with notepad and make sure that the following are in it: 
 	
 		[tcpout]
 		defaultGroup = default-autolb-group
@@ -25,5 +24,4 @@ Setting up the Windows 11 + Splunk Forwarder VM.
 		[tcpout:default-autolb-group]
 		server = <VM-IP>:9997
 		
-		
-	G) Go to your Splunk Web Interface > Settings > Forwarding and receiving > Configure receiving > New Receiving Port > 9997.
+G) Go to your Splunk Web Interface > Settings > Forwarding and receiving > Configure receiving > New Receiving Port > 9997.
