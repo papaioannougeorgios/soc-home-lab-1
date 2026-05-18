@@ -1,6 +1,6 @@
 All contents within this file are subject to change.
 
-1. Setting up the Windows 11 + Splunk Forwarder VM.
+Setting up the Windows 11 + Splunk Forwarder VM.
 	A) Get a Windows 11 ISO from the official Microsoft website. https://www.microsoft.com/en-us/software-download/windows11
 	B) Create a VM in Oracle VirtualBox using the ISO you downloaded.
 	C) Download the Splunk Forwarder .msi for Windows 11. https://www.splunk.com/en_us/download/universal-forwarder.html
